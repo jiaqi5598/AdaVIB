@@ -1,0 +1,5 @@
+datasets:
+  coco2014:
+    data_type: images
+    build_info:
+      storage: "Path to coco train images"

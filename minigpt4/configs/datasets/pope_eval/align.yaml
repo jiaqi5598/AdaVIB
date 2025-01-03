@@ -1,0 +1,6 @@
+datasets:
+  pope_eval:
+    data_type: images
+    build_info:
+      storage_eval: "Path to coco val images"
+      eval_type: "random"
