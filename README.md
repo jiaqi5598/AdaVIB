@@ -94,3 +94,9 @@ python coco_eval.py --cfg_path minigpt4_configs/minigpt4_coco_eval.yaml
 ```
 
 ## WIP
+
+## Citation
+If you find our work helpful, please use the following citations.
+```bibtext
+
+```
