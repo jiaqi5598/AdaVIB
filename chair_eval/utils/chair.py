@@ -333,7 +333,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--cap_file", type=str, default='Path to coco predictions. e.g., preds.txt')
     parser.add_argument("--annotation_path", type=str, default='Path to coco2014 annotations')
-    parser.add_argument("--synonyms_dir", default="./chair_score/data")
+    parser.add_argument("--synonyms_dir", default="./chair_eval/data")
     args = parser.parse_args()
 
     _, imids = load_generated_captions(args.cap_file)

@@ -93,10 +93,19 @@ python pope_eval.py --cfg_path minigpt4_configs/minigpt4_pope_eval.yaml
 python coco_eval.py --cfg_path minigpt4_configs/minigpt4_coco_eval.yaml
 ```
 
-## WIP
+## Acknowledgement
+
+Many thanks to the following projects, this project is partially built upon them.
+
+[MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4); [LURE](https://github.com/YiyangZhou/LURE); [LLaVa](https://github.com/haotian-liu/LLaVA);  [POPE](https://github.com/RUCAIBox/POPE); [CHAIR](https://github.com/LisaAnne/Hallucination); 
 
 ## Citation
 If you find our work helpful, please use the following citations.
 ```bibtext
-
+@article{bai2025mitigating,
+  title={Mitigating Hallucinations in Large Vision-Language Models by Adaptively Constraining Information Flow},
+  author={Bai, Jiaqi and Guo, Hongcheng and Peng, Zhongyuan and Yang, Jian and Li, Zhoujun and Li, Mohan and Tian, Zhihong},
+  journal={arXiv preprint arXiv:2502.20750},
+  year={2025}
+}
 ```
